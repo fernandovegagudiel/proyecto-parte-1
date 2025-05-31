@@ -44,7 +44,7 @@ namespace InvestigadorIA
             try
             {
 
-                IAService ia = new IAService("8cc7a0887cbbad9442f11c749ce875398f1605e4e33eb34b83480475781d1c67");
+                IAService ia = new IAService("apy key");
                 string prompt = "Por favor responde en español: " + pregunta;
                 string respuesta = await ia.ObtenerRespuestaAsync( prompt);
                 MostrarEnPantalla(respuesta);
